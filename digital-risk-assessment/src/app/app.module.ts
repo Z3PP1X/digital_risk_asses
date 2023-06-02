@@ -20,6 +20,10 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
 
 
 import { RiskAssessmentFormComponent } from './risk-assessment-form/risk-assessment-form.component';
+import { RiskMatrixComponent } from './risk-matrix/risk-matrix.component';
+import { CoverSheetComponent } from './cover-sheet/cover-sheet.component';
+import { HazardCategoryComponent } from './hazard-category/hazard-category.component';
+import { HierarchyOfMeasuresComponent } from './hierarchy-of-measures/hierarchy-of-measures.component';
 
 
 @NgModule({
@@ -27,6 +31,10 @@ import { RiskAssessmentFormComponent } from './risk-assessment-form/risk-assessm
     AppComponent,
     MainNavComponent,
     RiskAssessmentFormComponent,
+    RiskMatrixComponent,
+    CoverSheetComponent,
+    HazardCategoryComponent,
+    HierarchyOfMeasuresComponent
 
   ],
   imports: [

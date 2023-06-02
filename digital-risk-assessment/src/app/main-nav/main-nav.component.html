@@ -7,11 +7,11 @@
       [opened]="(isHandset$ | async) === false">
     <mat-toolbar>Menu</mat-toolbar>
     <mat-nav-list>
-      <a mat-list-item href="#">Deckblatt</a>
-      <a mat-list-item href="#">Gefährdungsbeurteilung</a>
-      <a mat-list-item href="#">Risikomatrix</a>
-      <a mat-list-item href="#">Gefährdungskategorien</a>
-      <a mat-list-item href="#">Maßnahmenhierarchie</a>
+      <a mat-list-item routerLink='/cover-sheet'>Deckblatt</a>
+      <a mat-list-item routerLink="/risk-assessment-form">Gefährdungsbeurteilung</a>
+      <a mat-list-item routerLink="/risk-matrix">Risikomatrix</a>
+      <a mat-list-item routerLink='/hierarchy-of-measures'>Maßnahmenhierarchie</a>
+      <a mat-list-item routerLink="/hazard-category">Gefährdungskategorien</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
